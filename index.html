@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Website</title>
+</head>
+<body>
+
+    <section class="top-content-section" id="home">
+
+        <!-- top navbar start  -->
+    
+          <section class="top-nav-section">
+            <nav class="navbar navbar-expand-md">
+              <div class="container-lg container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="./img/web-logo1.png" alt="logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="fa-solid fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-div" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#browse-topic">BROWSE TOPICS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#work">HOW IT WORK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#faqs">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        PAGES
+                      </a>
+                      <ul class="dropdown-menu dropdown-ul">
+                        <li>
+                          <a class="dropdown-item" href="#">TOPICS LISTING</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">CONTACT FORM</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="icon-box">
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </section>
+    
+        <!-- top navbar End  -->
+    
+                <!-- home content start  -->
+    
+            <div class="content-box">
+                <div class="container " >
+                    <div class="row " >
+                        <h1>Discover. Learn. Enjoy</h1>
+                        <p>platform for creatives around the world</p>
+                <div class="inp-box" >                
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input  type="search" placeholder="Design, Code, Marketing, Finance ...">
+                    <a href="javascript:void(0)" class="search-btn">Search</a>
+                </div>
+                </div>
+                </div>
+             </div>
+    
+             <!-- home content End  -->
+        </section>
+
+   <!-- card section start  -->
+
+   <section class="card-section">
+
+    <div class="card-box" >
+
+        <div class="container" >
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-5 colum-left">
+                    <div class="left-box-text" >
+                      <div class="web-text">
+                    <div class="web-heading">
+                        <h2>Web Design</h2>
+                        <a href="#">14</a>
+                    </div>
+
+                    <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                  </div>
+                    <img src="./img/topics/img1.png" class="img-fluid" >
+
+                </div>
+                </div>
+
+                <div class="col-lg-6 col-md-7 colum-right" >
+                    <div class="right-box-text" >
+                        <div class="finance-section-overlay">
+                          <div class="finance-text">
+                        <div class="finance-heading">
+                            <h2>Finance</h2>
+                            <a href="#">25</a>
+                        </div>
+    
+                        <p>Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+    
+                        <div class="learn-btn-box">
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                        <div class="shere-box">
+
+                            <div class="social-icons">
+                            <span>Shere:</span>   
+                               <i class="fa-brands fa-twitter"></i>
+                               <i class="fa-brands fa-facebook"></i>
+                               <i class="fa-brands fa-pinterest"></i>
+                            </div>
+                            <a href="#" class="fa-regular fa-bookmark fovrite"></a>
+                          </div>
+                        </div>
+                    </div>
+                        <div class="section-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</section>
+    <!-- card section End  -->
+
+ <!-- browse-topics-section  -->
+
+ <section class="browse-topics-section" id="browse-topic">
+  <div class="container" >
+    <div class="row" >
+      <div class="browse-box p-0">
+        <h1>Browse Topics</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="topics-section" >
+<div class="container-lg container-fluid p-0" >
+  <div class="row m-0" >
+   
+    <ul class="nav nav-tabs topic-ul" id="myTab" role="tablist" >
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Design</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Marketing</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Finance</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Music</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Education</button>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
+</section>
+
+<!-- browse-topics-section  -->
+
+<!-- topic-card-section star  -->
+
+<section class="topic-card-section" >
+
+  <div class="container-lg container-fluid">
+    <div class="row" >
+
+      <div class=" col-lg-4 col-md-5 col-sm-6  mx-auto col-11 my-col" >
+        <div class="web-design-box">
+          <div class="design-text">
+          <div class="design-heading">
+           <h2>Web Design</h2>
+           <a href="#">14</a>
+          </div>
+          <p>Lorem Ipsum dolor sit amet consectetur</p>
+          <img src="./img/topics/img1.png"   >
+        </div>
+
+        </div>
+      </div>
+
+      <div class=" col-lg-4 col-md-5 col-sm-6 mx-auto col-11 my-col" >
+        <div class="graphic-design-box">
+          <div class="design-text">
+           <div class="design-heading">
+            <h2>Graphic</h2>
+           <a href="#">75</a>
+          </div>
+
+          <p>Lorem Ipsum dolor sit amet consectetur</p>
+          <img src="./img/topics/img3.png"  >
+
+        </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-5 col-sm-6 mx-auto col-11 my-col" >
+        <div class="logo-design-box">
+          <div class="design-text">
+          <div class="design-heading">
+            <h2>Logo Design</h2>
+            <a href="#">100</a>
+          </div>
+
+          <p>Lorem Ipsum dolor sit amet consectetur</p>
+          <img src="./img/topics/img4.png"  >
+
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- topic-card-section End  -->
+
+<!-- how it work section Start  -->
+
+<section class="how-it-work" id="work">    
+  <div class="section-overlay work-it-overlay"></div>
+  <div class="work-it-box">
+  <div class="container-md container-fluid" >
+    <div class="row" >
+
+       <div class="work-text-box" >
+
+        <h1>How does it work?</h1>
+
+         <div class="col-12 col-lg-10  mx-auto" >
+          <div class="timeline-container" >
+
+            <ul class="timeline-ul">
+             
+              <li class="timeline-items" >
+                <div class="icon-holder icon-line"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div class="timeline-text">
+                    <h2>Search your favourite topic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam?
+                       Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam
+                       numquam aliquam? Voluptas, accusamus omnis?</p>
+
+                  </div>
+              </li>
+
+              <li class="timeline-items" >
+                <div class="icon-holder icon-line"><i class="fa-solid fa-thumbs-up"></i></div>
+                  <div class="timeline-text">
+                    <h2>Like & Keep it for yourself</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam?
+                       Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam
+                       numquam aliquam? Voluptas, accusamus omnis?</p>
+
+                  </div>
+              </li>
+
+              <li class="timeline-items" >
+                <div class="icon-holder"><i class="fa-solid fa-book-open"></i></div>
+                  <div class="timeline-text">
+                    <h2>Read & Enjoy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam?
+                       Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam
+                       numquam aliquam? Voluptas, accusamus omnis?</p>
+
+                  </div>
+              </li>
+            </ul>
+
+          </div>
+         </div>
+
+         <div class="check-it-btn-box">
+          <div class="learn-more"><p>Want to learn more?</p></div>
+          <div class=" check-out"><a href="#">Check Out Youtube</a></div>
+         </div>
+
+       </div>
+
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- how it work section End  -->
+
+<!-- FaQs section Start  -->
+
+<section class="faqs-section-box" id="faqs">
+
+  <div class="container" >
+    <div class="row" >
+
+        <div class="col-12 col-lg-6 faqs-text-box">
+          <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="empty-div"></div>
+      
+          <div class="col-lg-5  col-12" >
+             <img src="./img/topics/img6.jpg" height="100%" width="100%">
+          </div>
+
+          <div class="col-lg-6 col-12 mx-auto faqs-colum" >
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is Topic Listing?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Topic Listing is free Bootstrap 5 CSS template. <strong> You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How to find a topic?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    You can search on Google with <strong>keywords</strong> such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Does it need to paid?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body,</code> though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- FaQs section End  -->
+
+<!-- contact section start  -->
+
+<section class="contect-section-box" id="contact">
+
+  <div class="container" >
+    <div class="row" >
+       <div class="col-12"><h2 class="Get-in-touch">Get in touch</h2></div>
+
+          <div class="col-lg-5 col-12 mb-4 mb-lg-0" >
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14476.391952664013!2d67.04556539189818!3d24.894639029469037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fba58f1fd81%3A0x9e65eab67bf198ff!2sAskari%20Amusement%20Park!5e0!3m2!1sen!2s!4v1692191580226!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 ms-auto head-office-colum" >
+             <h4>Head office</h4>
+             <p class="phone-para">Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
+
+             <hr>
+
+             <p class="phone">
+              <span>Phone</span>
+              <a href="#">305-240-9671</a>
+             </p>
+
+             <p class="email">
+              <span>Email</span>
+              <a href="#">info@company.com</a>
+             </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 mx-auto head-office-colum" >
+          
+            <h4>Dubai office</h4>
+            <p class="phone-para">Burj Park, Downtown Dubai, United Arab Emirates</p>
+
+            <hr>
+
+            <p class="phone">
+             <span>Phone</span>
+             <a href="#">110-220-3400</a>
+            </p>
+
+            <p class="email">
+             <span>Email</span>
+             <a href="#">info@company.com</a>
+            </p>
+          
+          </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- contact section End  -->
+
+<!-- footer section Start  -->
+
+<footer class="site-footer footer-box">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 col-12 mb-4 pb-2" >
+
+        <a  href="#home">
+          <img src="./img/web-logo1.png" alt="logo" />
+        </a>
+
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6" >
+
+        <h4 class="footer-title-text mb-3">Resources</h4>
+
+        <ul class="footer-links p-0">
+          <li class="footer-link-items"><a href="#home">Home</a></li>
+          <li class="footer-link-items"><a href="#work">How it Work</a></li>
+          <li class="footer-link-items"><a href="#faqs">FAQs</a></li>
+          <li class="footer-link-items"><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0" >
+
+        <h4 class="footer-title-text mb-3">Information</h4>
+
+        <p class="phone">
+          <a href="#">305-240-9671</a>
+         </p>
+
+         <p class="email">
+          <a href="#">info@company.com</a>
+         </p>
+
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-12 mt-4 mt-md-0 ms-auto " >
+
+        <div class="dropdown">
+          <button class="language-btn btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            English
+          </button>
+          <ul class="dropdown-menu dropdown-menu-ul">
+            <li><a class="dropdown-item" href="#">Urdu</a></li>
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Arabic</a></li>
+          </ul>
+        </div>
+
+        <p class="copyright-text mt-lg-5 mt-4">
+
+          Copyright © 2048 Topic Listing Center. All rights reserved.
+          <br>
+          <br>
+
+          Design by : &nbsp;
+          <a  href="#" class="design-by" >Shahwar Ali</a>
+
+        </p>
+
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+<!-- footer section End  -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
